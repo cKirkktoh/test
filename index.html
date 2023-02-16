@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="initial-scale=1.0, width=device-width">
-<title>Quatro - Home</title>
+<title>Quatro</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap" rel="stylesheet">
@@ -11,25 +11,77 @@
 <link href="css/main.css" rel="stylesheet">
 <!DOCTYPE html>
 <html>
-<body>
-	<header>
-		<div class="logo">
-			<img src="quatro_logo.png" alt="Quatro Logo">
-		</div>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="index_contact.html">Contact</a></li>
+	<body>
+		<header>
+		  <div class="logo">
+			<img src="quatro-logo.png" alt="Quatro" />
+		  </div>
+	
+		  <nav>
+			<ul class="nav-menu">
+			  <li><a href="index.html" class="active">Home</a></li>
+			  <li><a href="products.html">Products</a></li>
+			  <li><a href="about.html">About Us</a></li>
+			  <li><a href="contact.html">Contact Us</a></li>
 			</ul>
-		</nav>
-	</header>
-	<main>
-		<h1>Welcome to Quatro</h1>
-		<p>Quatro is your go-to drink company for refreshing and delicious beverages.</p>
-		<button>Learn More</button>
-	</main>
-</body>
-</html>
-
+		  </nav>
+		</header>
+	
+		<main>
+		  <section class="hero-section">
+			<div class="hero-content">
+			  <h1>Welcome to Quatro</h1>
+			  <p>Your go-to beverage for every occasion</p>
+			  <a href="#" class="btn btn-primary">Shop Now</a>
+			</div>
+		  </section>
+	
+		  <section class="featured-section">
+			<div class="featured-card">
+			  <img src="quatro-products-1.jpg" alt="Quatro Product 1" />
+			  <h2>Quatro Green Tea</h2>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			  <a href="#" class="btn btn-secondary">Learn More</a>
+			</div>
+	
+			<div class="featured-card">
+			  <img src="quatro-products-2.jpg" alt="Quatro Product 2" />
+			  <h2>Quatro Lemonade</h2>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			  <a href="#" class="btn btn-secondary">Learn More</a>
+			</div>
+	
+			<div class="featured-card">
+			  <img src="quatro-products-3.jpg" alt="Quatro Product 3" />
+			  <h2>Quatro Orange Juice</h2>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			  <a href="#" class="btn btn-secondary">Learn More</a>
+			</div>
+		  </section>
+	
+		  <section class="about-section">
+			<div class="about-image">
+			  <img src="quatro-about.jpg" alt="Quatro About" />
+			</div>
+	
+			<div class="about-content">
+			  <h2>About Us</h2>
+			  <p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+				ultricies, arcu et ullamcorper bibendum, sem nibh aliquam nunc, a
+				facilisis lectus dolor sed mauris. Fusce euismod odio vel dolor
+				fringilla, sed commodo elit pharetra.
+			  </p>
+			  <a href="#" class="btn btn-secondary">Learn More</a>
+			</div>
+		  </section>
+		</main>
+	
+		<footer>
+		  	<div class="footer-container">
+				<p>&copy; 2023 Quatro. All Rights Reserved.</p>
+				<p><a href="contact.html">Contact Us</a></p>
+			</div>
+		</footer>
+	</body>
+</html>	
